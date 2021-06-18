@@ -22,6 +22,7 @@ export RK_DISTRO_DEFCONFIG=rk3399_defconfig
 export RK_CFG_RECOVERY=rockchip_rk3399_recovery
 #choose enable Linux A/B
 export RK_LINUX_AB_ENABLE=true
+export RK_PACKAGE_FILE_OTA=rk3399-package-file-ota
 # ramboot config
 export RK_CFG_RAMBOOT=
 # Pcba config
