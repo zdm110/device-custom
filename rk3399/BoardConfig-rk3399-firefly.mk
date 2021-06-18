@@ -13,13 +13,15 @@ export RK_BOOT_IMG=boot.img
 # kernel image path
 export RK_KERNEL_IMG=kernel/arch/arm64/boot/Image
 # parameter for GPT table
-export RK_PARAMETER=parameter.txt
+export RK_PARAMETER=parameter-ab.txt
 # Buildroot config
 export RK_CFG_BUILDROOT=rockchip_rk3399
 # Debian 10 config
 export RK_DISTRO_DEFCONFIG=rk3399_defconfig
 # Recovery config
 export RK_CFG_RECOVERY=rockchip_rk3399_recovery
+#choose enable Linux A/B
+export RK_LINUX_AB_ENABLE=true
 # ramboot config
 export RK_CFG_RAMBOOT=
 # Pcba config
